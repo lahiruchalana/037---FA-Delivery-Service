@@ -1,10 +1,10 @@
 package com.example.delivery_service.exceptions.handler;
 
-import com.example.restaurant_service.exceptions.CustomException;
-import com.example.restaurant_service.exceptions.DataExistingException;
-import com.example.restaurant_service.exceptions.InvalidInputException;
-import com.example.restaurant_service.exceptions.NoDataAvailableException;
-import com.example.restaurant_service.exceptions.model.CommonExceptionModel;
+import com.example.delivery_service.exceptions.CustomException;
+import com.example.delivery_service.exceptions.DataExistingException;
+import com.example.delivery_service.exceptions.InvalidInputException;
+import com.example.delivery_service.exceptions.NoDataAvailableException;
+import com.example.delivery_service.exceptions.model.CommonExceptionModel;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
